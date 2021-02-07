@@ -1,27 +1,28 @@
-body {
-  font-family: arial, sans-serif;
-  background color: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); 
-} 
-
-}
-
 h1 {
-  color:  #BE3C62;
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 28px;
-  margin: 0;
+  color: #be3c62;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
 }
 
+body {
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
 ul {
   margin: 0 0 10px;
   padding: 0;
+  color: #be3c62;
 }
 
 li {
-  color: #BE3C62;
+  color: #be3c62;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 25px;
   height: 19px;
   line-height: 1;
   list-style: none;
@@ -42,7 +43,7 @@ li {
 }
 
 .temperature {
-  color: #F46183;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -51,14 +52,8 @@ li {
 .units {
   position: relative;
   top: -34px;
-  
 }
 
 .search-form {
   margin-bottom: 20px;
-}
-.weather-sentence {
-  color:  #BE3C62;
-  font-size: 24px;
-  font-weight: 55;
 }
