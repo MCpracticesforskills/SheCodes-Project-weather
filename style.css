@@ -1,10 +1,12 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  font-family: arial, sans-serif;
+  background color: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); 
+} 
+
 }
 
 h1 {
-  color: #B7335F;
+  color:  #BE3C62;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -17,7 +19,7 @@ ul {
 }
 
 li {
-  color: #b71d50;
+  color: #BE3C62;
   font-size: 16px;
   font-weight: 100;
   height: 19px;
@@ -40,7 +42,7 @@ li {
 }
 
 .temperature {
-  color: rgb(33, 33, 33);
+  color: #F46183;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -49,6 +51,7 @@ li {
 .units {
   position: relative;
   top: -34px;
+  
 }
 
 .search-form {
