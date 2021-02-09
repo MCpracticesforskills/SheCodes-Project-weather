@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-  background-image: linear-gradient(
+  background-color: linear-gradient(
     45deg,
     #ff9a9e 0%,
     #fad0c4 99%,
